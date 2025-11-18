@@ -268,3 +268,5 @@ chmod +x number_guess.sh
 ./number_guess.sh
 git add .
 git commit -m "fix"
+git add .
+git commit -m "feat"
