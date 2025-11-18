@@ -75,3 +75,10 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 chmod +x number_guessing.sh
 touch number_guess.sh
+cd number_guessing_game/
+touch number_guess.sh
+chmod +x number_guess.sh
+git init
+git add .
+git commit -m "Initial commit"
+./number_guess.sh
