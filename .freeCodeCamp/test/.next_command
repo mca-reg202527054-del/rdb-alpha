@@ -181,3 +181,4 @@ git add .
 git commit -m "fix"
 git add .
 git commit -m "feat"
+git add .
